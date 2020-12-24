@@ -56,6 +56,8 @@
 		A3C385FB25938EB3005B01F5 /* SampleFolderStrucure */ = {
 			isa = PBXGroup;
 			children = (
+				A3C3863C2594882F005B01F5 /* Resources */,
+				A3C386112594878A005B01F5 /* Classes */,
 				A3C385FC25938EB3005B01F5 /* AppDelegate.swift */,
 				A3C385FE25938EB3005B01F5 /* SceneDelegate.swift */,
 				A3C3860025938EB3005B01F5 /* ViewController.swift */,
@@ -65,6 +67,76 @@
 				A3C3860A25938EB4005B01F5 /* Info.plist */,
 			);
 			path = SampleFolderStrucure;
+			sourceTree = "<group>";
+		};
+		A3C386112594878A005B01F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3C386122594878A005B01F5 /* Core */,
+				A3C386132594878A005B01F5 /* BusinessLogic */,
+				A3C386162594878A005B01F5 /* Presentation */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		A3C386122594878A005B01F5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A3C386132594878A005B01F5 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				A3C386142594878A005B01F5 /* Models */,
+				A3C386152594878A005B01F5 /* Services */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		A3C386142594878A005B01F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A3C386152594878A005B01F5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A3C386162594878A005B01F5 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A3C386172594878A005B01F5 /* Coordinators */,
+				A3C386182594878A005B01F5 /* Modules */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A3C386172594878A005B01F5 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		A3C386182594878A005B01F5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A3C3863C2594882F005B01F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
